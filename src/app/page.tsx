@@ -72,7 +72,6 @@ export default function Home() {
             { items: [{ label: 'How to Buy', onClick: () => console.log('How to Buy Clicked') }, { label: 'Tokenomics', onClick: () => console.log('Tokenomics Clicked') }] },
             { items: [{ label: 'Privacy', onClick: () => console.log('Privacy Clicked') }, { label: 'Terms', onClick: () => console.log('Terms Clicked') }] },
           ]}
-          onPrivacyClick={() => console.log('Privacy Policy Clicked')}
         />
       </div>
     </SiteThemeProvider>
